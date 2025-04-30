@@ -1,3 +1,4 @@
+- [Question and Solution](#question-and-solution)
 4. Calculate the average genre revenue and budget to compare to the movie buget in the genre. We've limited it to the first 10 entries in our table. 
    
 ````sql
