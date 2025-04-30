@@ -1,3 +1,4 @@
+- [Question and Solution](#question-and-solution)
 7. What is the runtime, release year, and runtime of the top ten grossing films?
 ````sql
 SELECT m.title, m.release_year, f.revenue, m.genre, p.production_company, p.production_country
