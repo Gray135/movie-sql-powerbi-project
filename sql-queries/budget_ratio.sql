@@ -17,7 +17,7 @@ JOIN person p ON p.person_id = m.person_id
 ORDER BY Ratio DESC
 LIMIT 10;
 
--- Sample Output: Top 10 ROI Movies
+--Top 10 ROI Movies
 -- Director         | Lead Actor        | Title                    | Budget | Revenue     | Ratio
 -- ---------------- | ----------------- | ------------------------ | -------|-------------|-------
 -- Oren Peli        | Katie Featherston | Paranormal Activity      | 15000  | 193355800   | 12890
