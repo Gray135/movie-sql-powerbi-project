@@ -1,3 +1,4 @@
+- [Questions and Solutions](#questions-and-solutions)
 Compare the top ten performing films budget, revenue, runtime with the average budget, revenue, and runtime
   
 -- Step 1: Create a Common Table Expression (CTE) to calculate averages
