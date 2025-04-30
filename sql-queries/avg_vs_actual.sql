@@ -36,7 +36,6 @@ CROSS JOIN average a
 ORDER BY revenue DESC
 LIMIT 10;
 
--- (Top 10 Films vs Averages):
 -- Title                         | Budget     | Genre          | Revenue      | Runtime | Avg_Runtime | Avg_Budget | Avg_Revenue
 -- -----------------------------|------------|----------------|--------------|---------|-------------|------------|-------------
 -- Avatar                       | 237000000  | Action         | 2787965087   | 162     | 111         | 41317104   | 123414291
