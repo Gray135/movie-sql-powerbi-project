@@ -1,7 +1,13 @@
 - [Question and Solution](#question-and-solution)
-4. Calculate the average genre revenue and budget to compare to the movie buget in the genre. We've limited it to the first 10 entries in our table. 
    
-````sql
+How do the top 10 movies revenue and budget compare to the average revenue and budget per genre?
+   
+-- This query uses a Common Table Expression (CTE) to calculate
+-- the average revenue and budget for each movie genre.
+-- It then joins that data back to the movie and finance tables
+-- to compare individual movie performance to genre-level benchmarks.
+
+-- Step 1: Create a CTE to calculate average genre revenue and budget
 WITH avg_genre AS (
     SELECT 
         m.genre, 
@@ -11,6 +17,11 @@ WITH avg_genre AS (
     FULL JOIN finance f ON m.finance_id = f.finance_id
     GROUP BY m.genre
 )
+
+-- Step 2: Join the CTE with movie and finance data
+-- - This allows us to show each movie's revenue and budget
+--   alongside the average for its genre
+-- - LIMIT 10 used to preview a sample of results
 
 SELECT 
     m.movie_id, 
@@ -24,34 +35,22 @@ FROM avg_genre ag
 JOIN movie m ON ag.genre = m.genre
 JOIN finance f ON f.finance_id = m.finance_id
 LIMIT 10;
-````
-### Steps: 
-- Create a **CTE*** named avg_genre that uses aggregate functions **SUM**(), **COUNT**(), and **ROUND**().
-- Calculate avg_genre_revenue by taking **SUM**(f.revenue) and dividing it by **COUNT**(m.genre).
-- Wrap it in **ROUND**() to make it easier to read.
-- Calculate avg_genre_budget by taking **SUM**(f.budget) divided by **COUNT**(m.genre), also wrapped in **ROUND**().
-- Use a **FULL JOIN** to connect the movie and finance tables using m.finance_id = f.finance_id.
-- Group the results by m.genre to ensure averages are calculated per genre.
-- Write the main **SELECT** statement to pull relevant columns:
-- From the movie table: movie_id, title, genre
-- From the finance table: budget, revenue
-- From the **CTE**: ag.avg_genre_revenue, ag.avg_genre_budget
-- **JOIN** the **CTE** avg_genre with the movie table on genre.
-- **JOIN** the finance table using m.finance_id = f.finance_id.
-- **LIMIT** the output using LIMIT 10 to preview the results.
 
-### Answer:
-| movie_id | title | genre | budget | revenue | avg_genre_revene | avg_budget_revenue |
-|----------|-------|-------|--------|---------|------------------|--------------------|
-| 1 | Avatar | Action| 237000000 | 2787965087 | 157062016 | 58733286 |
-| 2 | Pirates of the Caribbean: At World's End | Adventure | 3000000000 | 961000000 | 248512161 | 76036274 |
-| 3 | Spectre | Action | 245000000 | 880674609 | 157062016 | 58733286 |
-| 4 | The Dark Knight Rises | Action | 2500000000 | 1084939099 | 157062016 | 58733286 |
-| 5 | John Carter | Action | 260000000 | 284139100 | 157062016 | 58733286 |
-| 6 | Spider-Man 3 | Fantasy | 258000000 | 890871626 | 187441668 | 64894932 |
-| 7 | Tangled | Animation | 260000000 | 591794936 | 301965829 | 83330943 |
-| 8 | Avengers: Age of Ultron | Action | 280000000 | 1405403694 | 157062016 | 58733286 |
-| 9 | Harry Potter and the Half-Blood Prince | Adventure | 250000000 | 933959197 | 248512161 | 76036274 |
-| 10 | Batman v Superman: Dawn of Justice | Action | 250000000 | 873260194 | 157062016 | 58733286 |
+-- Sample Output:
+-- Movie_ID | Title                              | Genre       | Budget     | Revenue      | Avg_Genre_Revenue | Avg_Genre_Budget
+-- -------- | ---------------------------------- | ----------- | ---------- | ------------ | ------------------| ------------------
+-- 1        | Avatar                             | Action      | 237000000  | 2787965087   | 157062016         | 58733286
+-- 2        | Pirates of the Caribbean: At World's End | Adventure | 3000000000 | 961000000    | 248512161         | 76036274
+-- 3        | Spectre                            | Action      | 245000000  | 880674609    | 157062016         | 58733286
+-- 4        | The Dark Knight Rises              | Action      | 2500000000 | 1084939099   | 157062016         | 58733286
+-- 5        | John Carter                        | Action      | 260000000  | 284139100    | 157062016         | 58733286
+-- 6        | Spider-Man 3                       | Fantasy     | 258000000  | 890871626    | 187441668         | 64894932
+-- 7        | Tangled                            | Animation   | 260000000  | 591794936    | 301965829         | 83330943
+-- 8        | Avengers: Age of Ultron            | Action      | 280000000  | 1405403694   | 157062016         | 58733286
+-- 9        | Harry Potter and the Half-Blood... | Adventure   | 250000000  | 933959197    | 248512161         | 76036274
+-- 10       | Batman v Superman: Dawn of Justice | Action      | 250000000  | 873260194    | 157062016         | 58733286
 
-***
+-- Insights:
+-- - Most top-performing movies have budgets far above their genre's average
+-- - Action and Adventure dominate high-spend, high-return films
+-- - Comparing individual films to genre averages helps surface outliers
