@@ -11,7 +11,7 @@ in top-performing films and make data-informed decisions.
 - [Folder Structure](#folder-structure)
 - [Business Task](#business-task)
 - [Questions and Solutions](#questions-and-solutions)
-- [Project Progress & Next Steps](#project-progress---next-steps)
+- [Project Progress & Next Steps](#project-progress--next-steps)
 - [Contact](#contact)
 
 ---
