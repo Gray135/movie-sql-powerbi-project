@@ -15,7 +15,6 @@ JOIN production p ON p.movie_id = m.movie_id
 ORDER BY f.revenue DESC
 LIMIT 10;
 
-
 -- Title                          | Release Year | Revenue      | Genre           | Production Company        | Country
 -- ----------------------------- | -------------| -------------| ----------------| --------------------------| -------------------------
 -- Avatar                         | 2009         | 2787965087   | Action          | Ingenious Film Partners   | United States of America
