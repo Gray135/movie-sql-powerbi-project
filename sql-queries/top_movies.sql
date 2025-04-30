@@ -9,7 +9,7 @@ JOIN person p ON p.person_id = m.person_id
 ORDER BY revenue DESC, budget ASC
 LIMIT 10;
 
--- Sample Output:
+
 -- Title                        | Revenue       | Budget      | Director         | Lead Actor
 -- --------------------------- | ------------- | ----------- | ---------------- | ----------------
 -- Avatar                      | 2787965087    | 237000000   | James Cameron    | Sam Worthington
