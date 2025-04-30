@@ -16,7 +16,6 @@ JOIN finance ON finance.finance_id = movie.finance_id
 ORDER BY revenue DESC
 LIMIT 10;
 
-
 -- Production_ID | Production Company      | Country                | Title                          | Genre         | Budget     | Revenue
 -- ------------- | ------------------------| ------------------------| ------------------------------ | ------------- | ---------- | ------------
 -- 1             | Ingenious Film Partners | United States of America| Avatar                         | Action        | 237000000  | 2787965087
