@@ -1,3 +1,4 @@
+- [Question and Solution](#question-and-solution)
 5. For the top 10 performing films what production companies finances the films? Is there a production company who financed multiple films in the top 10?
 ````sql
 SELECT production_id, production_company, production_country, title, genre, budget, revenue
