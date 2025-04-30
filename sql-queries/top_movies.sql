@@ -1,7 +1,7 @@
 - [Question and Solution](#question-and-solution)
-What are the top 10 top performing movies? Of those 10 movies who is are the actor and director? Are there any repeats?
  
-   -- Top 10 Performing Movies by Revenue
+What are the top 10 performing films by revenue? Also include the director and lead actor. 
+ 
 SELECT m.title, f.revenue, f.budget, p.director, p.lead_actor
 FROM movie m
 JOIN finance f ON m.finance_id = f.finance_id
@@ -9,7 +9,7 @@ JOIN person p ON p.person_id = m.person_id
 ORDER BY revenue DESC, budget ASC
 LIMIT 10;
 
-
+-- Top 10 Performing Movies by Revenue
 -- Title                        | Revenue       | Budget      | Director         | Lead Actor
 -- --------------------------- | ------------- | ----------- | ---------------- | ----------------
 -- Avatar                      | 2787965087    | 237000000   | James Cameron    | Sam Worthington
