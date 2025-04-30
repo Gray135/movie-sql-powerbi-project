@@ -4,7 +4,7 @@ How do the top 10 movies revenue and budget compare to the average revenue and b
    
 -- Step 1: Create a CTE to calculate average genre revenue and budget
 -- Use a Common Table Expression (CTE) to find  the average revenue and budget for each movie genre.
--- Join the CTE data back to the movie and finance tables to compare individual  movie performance to genre-level benchmarks.
+-- Join the CTE data back to the movie and finance tables to compare individual  movie performance to genre benchmarks.
    
 WITH avg_genre AS (
     SELECT 
@@ -17,8 +17,7 @@ WITH avg_genre AS (
 )
 
 -- Step 2: Join the CTE with movie and finance data
--- - This allows us to show each movie's revenue and budget
---   alongside the average for its genre
+-- - This allows us to show each movie's revenue and budget alongside the average for its genre
 -- - LIMIT 10 used to preview a sample of results
 
 SELECT 
@@ -34,7 +33,6 @@ JOIN movie m ON ag.genre = m.genre
 JOIN finance f ON f.finance_id = m.finance_id
 LIMIT 10;
 
--- Top perfomring movies and genres
 -- Movie_ID | Title                              | Genre       | Budget     | Revenue      | Avg_Genre_Revenue | Avg_Genre_Budget
 -- -------- | ---------------------------------- | ----------- | ---------- | ------------ | ------------------| ------------------
 -- 1        | Avatar                             | Action      | 237000000  | 2787965087   | 157062016         | 58733286
