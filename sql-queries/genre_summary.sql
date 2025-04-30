@@ -1,3 +1,4 @@
+- [Question and Solution](#question-and-solution)
 3. Let's look at movie genres/ What is the average budget and revenue for each genre? Also what is the overall budget and revenue for each genre?
    
 ````sql
