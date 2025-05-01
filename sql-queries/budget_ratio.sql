@@ -32,5 +32,5 @@ LIMIT 10;
 
 -- Insights:
 -- - Paranormal Activity had an ROI over 12,000x its budget
--- - Most top ROI films were low-budget horror or documentary
+-- - Most top ROI films were low-budget horror or documentaries
 -- - Bambi is the only animated classic on this high-ROI list
