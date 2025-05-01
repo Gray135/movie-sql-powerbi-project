@@ -2,13 +2,13 @@
 This folder contains visual assets (screenshots) used to showcase the Power BI dashboard for the Film ROI Analysis project.
 
 Contents
-overview.png – High-level KPIs and ROI summary by genre
+Overview.png – Overview of the Movie ROI dashboard 
 
-top_movies.png – Bar chart of top 20 films by ROI
+Detailed ROI Analysis.png – Analysis of ROI by production company, director, actor, & movie
 
-genre_vs_roi.png – ROI comparison across genres
+Trends Over Time.png – Revenue trends by release year and runtime
 
-budget_vs_revenue.png – Scatter plot showing correlation between budget and box office revenue
+Genre Analysis.png – Analysis of genre performance by budget and revenue
 
 Where They're Used
 These images are referenced in:
