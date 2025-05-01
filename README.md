@@ -1,7 +1,7 @@
 # 🎬 Highest performing movies SQL Analysis Project
 
 This is built as a learning project using SQL/Power BI skills — not to represent work done for any studio or client.
-The analysis is designed to  to find insights about budget, revenue, production companies, and genre-based profitability 
+The analysis is designed to find insights about budget, revenue, production companies, and genre-based profitability 
 in top-performing movies to help with data-informed decisions. 
 
 ---
