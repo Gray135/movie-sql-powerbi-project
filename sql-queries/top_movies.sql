@@ -1,6 +1,6 @@
 - [Question and Solution](#question-and-solution)
  
-What are the top 10 performing films by revenue? Also include the director and lead actor. 
+What are the top 10 performing films ordered by revenue? Also include the director and lead actor. 
  
 SELECT m.title, f.revenue, f.budget, p.director, p.lead_actor
 FROM movie m
