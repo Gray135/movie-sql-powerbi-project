@@ -15,11 +15,11 @@ WITH average AS (
     FULL JOIN finance f ON m.finance_id = f.finance_id
 )
 
--- Step 2: Select the top 10 grossing movies and compare to averages
+-- Step 2: Select the top 10 highest grossing movies and compare to averages
 -- - CROSS JOIN attaches the single-row CTE values to each result
 -- - JOIN movie and finance on shared finance_id
 -- - ORDER BY revenue DESC to show top-performing films
--- - LIMIT 10 to return only to the top 10
+-- - LIMIT 10 to return only the top 10
 
 SELECT 
     m.title, 
@@ -50,7 +50,7 @@ LIMIT 10;
 -- Captain America: Civil War   | 250000000  | Adventure      | 1153304495   | 111     | 111         | 41317104   | 123414291
 
 -- Insights:
--- - All top films have higher-than-average budgets and revenues
+-- - All top films have above average budgets and revenues
 -- - Most exceed average runtime
 -- - "Avatar" and "Titanic" significantly outperform dataset averages
 
