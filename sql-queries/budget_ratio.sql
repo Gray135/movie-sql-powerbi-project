@@ -1,8 +1,8 @@
 - [Questions and Solutions](#questions-and-solutions)
   
-What is the ratio of revenue to budget (ROI) for each of the top 10 movies. Who was the director and lead actor?
+What is the ratio of revenue to budget (ROI) for each of the top 10 movies? Who was the director and lead actor?
   
--- Note: We use DISTINCT to ensure duplicate rows (if any) are removed.
+-- Note: DISTINCT is used to ensure duplicate rows (if any) are removed.
 
 SELECT DISTINCT 
     p.director, 
@@ -32,5 +32,5 @@ LIMIT 10;
 
 -- Insights:
 -- - Paranormal Activity had an ROI over 12,000x its budget
--- - Most top ROI films were low-budget horror or documentaries
+-- - Most high ROI films were low-budget horror or documentaries
 -- - Bambi is the only animated classic on this high-ROI list
