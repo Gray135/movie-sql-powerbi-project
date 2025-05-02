@@ -30,6 +30,7 @@ LIMIT 10;
 -- 10            | Marvel Studios          | United States of America| Captain America: Civil War     | Adventure     | 250000000  | 1153304495
 
 -- Insights:
--- - Marvel Studios financed 3 of the top 10 grossing films
--- - Universal Studios also appears multiple times, including an entry from Japan
+-- - Marvel Studios financed 3 of the top 10 highest grossing films
+-- - Universal Studios is the only other studio to appear more than once in the top 10
+-- - Only three studios (Marvel, Universal, and Paramount) financed more than one film in the top 10
 
