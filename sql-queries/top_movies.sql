@@ -1,6 +1,6 @@
 - [Question and Solution](#question-and-solution)
  
-What are the top 10 performing films ordered by revenue? Also include the director and lead actor. 
+What are the top 10 highest grossing films? Including the director and lead actor? 
  
 SELECT m.title, f.revenue, f.budget, p.director, p.lead_actor
 FROM movie m
@@ -23,7 +23,7 @@ LIMIT 10;
 -- Captain America: Civil War | 1153304495    | 250000000   | Anthony Russo    | Chris Evans
 
 -- Insights:
--- - James Cameron directed the top 2 films
--- - Robert Downey appears in 3 of the top 10
--- - Joss Whedon appears twice as director
+-- - James Cameron directed the top two films
+-- - Robert Downey appears in three of the top ten
+-- - Joss Whedon directed two of the top 10 films
   
