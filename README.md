@@ -37,8 +37,8 @@ This analysis uses SQL to explore:
 ---
 ## Data Source
 
-This project uses a modified version of the publicly avavliable move dataset from Kaggle:
-[Movies Dataset by Utkarshx27](https://www.kaggle.com/datasets/utkarshx27/movies-dataset)
+This project uses a modified version of the publicly avavliable movie dataset from Kaggle:
+<https://www.kaggle.com/datasets/utkarshx27/movies-dataset>
 
 The dataset includes information on genre, revenue, budget, production companies, and more.  
 It has been cleaned and structured for educational and analytical purposes in this project.
