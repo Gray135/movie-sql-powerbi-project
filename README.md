@@ -11,7 +11,7 @@ in top-performing movies to help with data-informed decisions.
 - [Folder Structure](#folder-structure)
 - [Business Task](#business-task)
 - [Questions and Solutions](#questions-and-solutions)
-- [Project Progress & Next Steps](#project-progress--next-steps)
+- [Project Progress and Next Steps](#project-progress--next-steps)
 - [Power BI Dashboard (.pbix)](dashboard/Movie_ROI_Dashboard.pbix)
 - [View Screenshots](./images/)
 - [Contact](#contact)
@@ -61,7 +61,7 @@ This analysis uses SQL to explore:
 
 ---
 
-##  Project Progress & Next Steps
+##  Project Progress and Next Steps
 
 -  Completed SQL analysis with 7 structured queries  
 -  Built a Power BI dashboard to visualize trends by genre, director, and studio  
