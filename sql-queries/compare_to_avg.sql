@@ -1,6 +1,6 @@
 - [Question and Solution](#question-and-solution)
    
-How do the top 10 movies revenue and budget compare to the average revenue and budget per genre?
+How do the top 10 movies' revenue and budget compare to the average revenue and budget per genre?
    
 -- Step 1: Create a CTE to calculate average genre revenue and budget
 -- Use a Common Table Expression (CTE) to find the average revenue and budget for each movie genre.
@@ -48,5 +48,5 @@ LIMIT 10;
 
 -- Insights:
 -- - Most top-performing movies have budgets far above their genre's average
--- - Action and Adventure dominate high-spend, high-return films
--- - Comparing individual films to genre averages helps surface outliers
+-- - Action and Adventure dominate among high-spend, high-return films
+-- - Comparing individual films to genre averages helps find outliers
