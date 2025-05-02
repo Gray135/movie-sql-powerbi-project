@@ -10,6 +10,7 @@ in top-performing movies to help with data-informed decisions.
 
 - [Folder Structure](#folder-structure)
 - [Business Task](#business-task)
+- [Data Source](#data-source)
 - [Questions and Solutions](#questions-and-solutions)
 - [Project Progress and Next Steps](#project-progress-and-next-steps)
 - [Power BI Dashboard (.pbix)](dashboard/Movie_ROI_Dashboard.pbix)
@@ -33,6 +34,14 @@ This analysis uses SQL to explore:
 - Budget efficiency
 - Genre trends
 - Production company patterns
+---
+## Data Source
+
+This project uses a modified version of the publicly avavliable move dataset from Kaggle:
+[Movies Dataset by Utkarshx27](https://www.kaggle.com/datasets/utkarshx27/movies-dataset)
+
+The dataset includes information on genre, revenue, budget, production companies, and more.  
+It has been cleaned and structured for educational and analytical purposes in this project.
 
 ---
 
