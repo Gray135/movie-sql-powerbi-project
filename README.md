@@ -11,7 +11,7 @@ in top-performing movies to help with data-informed decisions.
 - [Folder Structure](#folder-structure)
 - [Business Task](#business-task)
 - [Questions and Solutions](#questions-and-solutions)
-- [Project Progress and Next Steps](#project-progress--next-steps)
+- [Project Progress and Next Steps](#project-progress-and-next-steps)
 - [Power BI Dashboard (.pbix)](dashboard/Movie_ROI_Dashboard.pbix)
 - [View Screenshots](./images/)
 - [Contact](#contact)
