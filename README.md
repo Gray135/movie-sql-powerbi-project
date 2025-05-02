@@ -1,7 +1,7 @@
-# 🎬 Highest performing movies SQL Analysis Project
+# 🎬 Highest Performing Movies SQL Analysis Project
 
 This is built as a learning project using SQL/Power BI skills — not to represent work done for any studio or client.
-The analysis is designed to find insights into budget, revenue, production companies, and genre-based profitability 
+The analysis is designed to uncover insights into budget, revenue, production companies, and genre-based profitability 
 in top-performing movies to help with data-informed decisions. 
 
 ---
@@ -37,7 +37,7 @@ This analysis uses SQL to explore:
 ---
 ## Data Source
 
-This project uses a modified version of the publicly avavliable movie dataset from Kaggle:
+This project uses a modified version of the publicly available movie dataset from Kaggle:
 <https://www.kaggle.com/datasets/utkarshx27/movies-dataset>
 
 The dataset includes information on genre, revenue, budget, production companies, and more.  
@@ -76,7 +76,7 @@ It has been cleaned and structured for educational and analytical purposes in th
 -  Built a Power BI dashboard to visualize trends by genre, director, and studio  
 -  Publish a LinkedIn post highlighting key insights and linking to this GitHub project  
 -  Learn how to add calculated fields in DAX to enhance ROI and filtering  
--  Optional: Expand dataset to 2025 as well as finding streaming or international film data for further analysis
+-  Optional: Expand dataset to include 2025 movies and streaming/international data for further analysis
 
 ---
 
