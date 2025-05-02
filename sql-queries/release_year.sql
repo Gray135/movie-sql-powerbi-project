@@ -1,6 +1,6 @@
 - [Question and Solution](#question-and-solution)
   
--- What is the runtime, release year, and genre of the top 10 highest-grossing films? Make sure to include the production company and country. 
+-- What are the release year, and genre of the top 10 highest-grossing films? Make sure to include the production company and country. 
   
 SELECT 
     m.title, 
@@ -26,9 +26,9 @@ LIMIT 10;
 -- Frozen                         | 2013         | 1274219009   | Animation       | Walt Disney Pictures      | United States of America
 -- Iron Man 3                     | 2013         | 1215439994   | Action          | Marvel Studios            | China
 -- Minions                        | 2015         | 1156730962   | Family          | Universal Pictures        | United States of America
--- Captain America: Civil War     | 2016         | 115330495    | Adventure       | Marvel Studios            | United States of America
+-- Captain America: Civil War     | 2016         | 1153304495    | Adventure       | Marvel Studios            | United States of America
 
 -- Insights:
 -- - 2015 was a dominant year with 4 of the top 10 films
--- - Marvel Studios appears 3 times, all after 2012
+-- - Marvel Studios appears three times — all after 2012
 -- - Most top-grossing films were produced in the United States
