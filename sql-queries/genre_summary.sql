@@ -1,6 +1,6 @@
 - [Question and Solution](#question-and-solution)
    
-Which genre generates the most revenue overall and what is the average budget and revenue? 
+Which genre generates the most revenue overall, and what are the average budget and revenue per genre? 
    
 SELECT 
     m.genre, 
@@ -29,6 +29,6 @@ LIMIT 10;
 -- Crime            | 141   | 9408596694    | 3886096953   | 66727636    | 27560971
 
 -- Insights:
--- - Action and Adventure lead in both total revenue and spend
+-- - Action and Adventure lead in both total revenue and budget
 -- - Animation has the highest average revenue per film
--- - Horror is a high-volume, lower-budget genre with strong ROI potential
+-- - Horror is a high-volume, low-budget genre with strong ROI potential
