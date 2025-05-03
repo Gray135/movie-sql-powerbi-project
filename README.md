@@ -45,6 +45,28 @@ It has been cleaned and structured for educational and analytical purposes in th
 
 ---
 
+## Dashboard Preview
+
+1. ### Overview  
+[Overview](dashboard/Overview.png)  
+> High-level summary of movie ROI.
+
+2. ### Detailed ROI Analysis  
+[Detailed ROI Analysis](dashboard/Detailed_ROI_Analysis.png)  
+> Detailed analysis of the ROI of top actors, directors, movies, and production companies.
+
+3. ### Trends Over Time  
+[Trends Over Time](dashboard/Trends_Over_Time.png)  
+> Reviews movie revenue patterns across release years.
+
+4. ### Genre Analysis  
+[Genre Analysis](dashboard/Genre_Analysis.png)  
+> Compare top-performing films and their genres to average revenues.
+
+5. ### Findings  
+[Findings](dashboard/Findings.png)  
+> Offers findings based on previous pages for potential investors to consider.
+
 ## Questions and Solutions
 
 1. [Top 10 Performing Movies](sql-queries/top_movies.sql)  
