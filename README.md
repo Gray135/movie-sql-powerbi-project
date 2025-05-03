@@ -52,15 +52,15 @@ It has been cleaned and structured for educational and analytical purposes in th
 > High-level summary of movie ROI.
 
 2. ### Detailed ROI Analysis  
-[Detailed ROI Analysis](images/Detailed ROI Analysis.png)  
+[Detailed ROI Analysis](images/Detailed_ROI_Analysis.png)  
 > Detailed analysis of the ROI of top actors, directors, movies, and production companies.
 
 3. ### Trends Over Time  
-[Trends Over Time](images/Trends Over Time.png)  
+[Trends Over Time](images/Trends_Over_Time.png)  
 > Reviews movie revenue patterns across release years.
 
 4. ### Genre Analysis  
-[Genre Analysis](images/Genre Analysis.png)  
+[Genre Analysis](images/Genre_Analysis.png)  
 > Compare top-performing films and their genres to average revenues.
 
 5. ### Findings  
