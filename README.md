@@ -11,6 +11,7 @@ in top-performing movies to help with data-informed decisions.
 - [Folder Structure](#folder-structure)
 - [Business Task](#business-task)
 - [Data Source](#data-source)
+- [Data Preparation Summary](#data-preparation-summary)
 - [Dashboard Preview](#dashboard-preview)
 - [Questions and Solutions](#questions-and-solutions)
 - [Project Progress and Next Steps](#project-progress-and-next-steps)
@@ -42,6 +43,15 @@ This project uses a modified version of the publicly available movie dataset fro
 The dataset includes information on genre, revenue, budget, production companies, and more.  
 It has been cleaned and structured for educational and analytical purposes in this project.
 
+---
+
+##  Data Preparation Summary
+
+- Filled in missing budget and revenue values manually using IMDb and Box Office Mojo 
+- Standardized date formats for release year
+- Removed entries with 0 revenue and invalid genres
+- Normalized genre and production company fields (e.g., cleaned inconsistent naming)
+  
 ---
 
 ## Dashboard Preview
