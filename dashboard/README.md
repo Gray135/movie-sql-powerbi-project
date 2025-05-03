@@ -1,4 +1,4 @@
-📊 Power BI Dashboard – Film ROI Analysis
+### Power BI Dashboard – Film ROI Analysis
 This folder contains the .pbix file for the Power BI dashboard built as part of the Film Industry ROI Analysis project.
 
 ### Dashboard Overview
