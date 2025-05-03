@@ -66,7 +66,7 @@ It has been cleaned and structured for educational and analytical purposes in th
 ![Findings](images/Findings.png)  
 > Offers findings based on previous pages for potential investors to consider.
 
--[images](movie-sql-powerbi-project/images)
+[images](/images)
 ---
 ## Questions and Solutions
 
