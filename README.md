@@ -84,4 +84,4 @@ It has been cleaned and structured for educational and analytical purposes in th
 
 **Aaron Zeug**  
 Aspiring Data Analyst | Customer Experience & Reporting  
-[GitHub Profile](https://github.com/Gray135) • [LinkedIn](linkedin.com/in/aaronzeug)
+[GitHub Profile](https://github.com/Gray135) • [LinkedIn](https://linkedin.com/in/aaronzeug)
