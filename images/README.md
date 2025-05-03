@@ -10,6 +10,8 @@ Trends Over Time.png – Revenue trends by release year and runtime
 
 Genre Analysis.png – Analysis of genre performance by budget and revenue
 
+Findings.png - Offers reccomendations based off of ROI Trends
+
 Where They're Used
 These images are referenced in:
 
