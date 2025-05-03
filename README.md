@@ -11,10 +11,9 @@ in top-performing movies to help with data-informed decisions.
 - [Folder Structure](#folder-structure)
 - [Business Task](#business-task)
 - [Data Source](#data-source)
+- [Dashboard Preview](#dashboard-preview)
 - [Questions and Solutions](#questions-and-solutions)
 - [Project Progress and Next Steps](#project-progress-and-next-steps)
-- [Power BI Dashboard (.pbix)](dashboard/Movie_ROI_Dashboard.pbix)
-- [View Screenshots](./images/)
 - [Contact](#contact)
 
 ---
@@ -48,25 +47,27 @@ It has been cleaned and structured for educational and analytical purposes in th
 ## Dashboard Preview
 
 1. ### Overview  
-[Overview](images/Overview.png)  
+![Overview](images/Overview.png)  
 > High-level summary of movie ROI.
 
 2. ### Detailed ROI Analysis  
-[Detailed ROI Analysis](images/Detailed_ROI_Analysis.png)  
+![Detailed ROI Analysis](images/Detailed_ROI_Analysis.png)  
 > Detailed analysis of the ROI of top actors, directors, movies, and production companies.
 
 3. ### Trends Over Time  
-[Trends Over Time](images/Trends_Over_Time.png)  
+![Trends Over Time](images/Trends_Over_Time.png)  
 > Reviews movie revenue patterns across release years.
 
 4. ### Genre Analysis  
-[Genre Analysis](images/Genre_Analysis.png)  
+![Genre Analysis](images/Genre_Analysis.png)  
 > Compare top-performing films and their genres to average revenues.
 
 5. ### Findings  
-[Findings](images/Findings.png)  
+![Findings](images/Findings.png)  
 > Offers findings based on previous pages for potential investors to consider.
 
+
+---
 ## Questions and Solutions
 
 1. [Top 10 Performing Movies](sql-queries/top_movies.sql)  
